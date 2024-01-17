@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-green-gradient-start to-green-gradient-end text-transparent bg-clip-text
+  }
+}
+
+html {
+  font-family: var(--font-montserrat);
+}
+
+body::-webkit-scrollbar,
+div::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track,
+div::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb,
+div::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.26); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 0px solid #344054; /* creates padding around scroll thumb */
+}
