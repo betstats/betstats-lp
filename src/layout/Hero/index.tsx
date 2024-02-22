@@ -11,7 +11,7 @@ export const Hero = () => {
   const { isMobile } = useScreenDetector();
 
   return (
-    <section className="relative w-full mb-[62px] mt-[116px] md:pb-[146px] md:mt-0 md:pt-[173px] bg-transparent md:bg-hero-background">
+    <section className="relative w-full mb-[62px] mt-[156px] md:pb-[146px] md:mt-0 md:pt-[173px] bg-transparent md:bg-hero-background">
       <div className="flex flex-col items-center max-w-[1280px] mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-6 md:gap-4 lg:gap-0">
           <div className="px-8 md:px-0 flex flex-col items-start gap-6 md:gap-[18px]">

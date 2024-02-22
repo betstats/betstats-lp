@@ -20,6 +20,7 @@ export default function Home() {
         <Image src={MobileGreenLight} alt="Luz verde" />
       </div>
       <Hero />
+      <TelegramBonus />
       <GreenRange />
       <TiredOfAnalysis />
       <TakeDecisions />
@@ -27,7 +28,6 @@ export default function Home() {
       <SpendMoney />
       <SeeHowStatisticsWork />
       <AccessAnalysis />
-      <TelegramBonus />
       <FAQ />
       <EvolveHasTipster />
       <Footer />

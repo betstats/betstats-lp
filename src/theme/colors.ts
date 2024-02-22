@@ -29,4 +29,12 @@ export const colors = {
       800: '#A5A5A5',
     },
   },
+  alerts: {
+    yellow: '#FFD255',
+    orange: '#FF9C55',
+    red: '#FF5555',
+    purple: '#C89AFD',
+    blue: '#3C98FF',
+    green: '#00C399',
+  },
 };

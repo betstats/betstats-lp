@@ -21,8 +21,9 @@ export const TelegramBonus = () => {
           Acesse nosso <b>canal exclusivo</b> para assinantes no telegram.
         </h2>
         <p className="text-lg md:text-[22px] leading-[28px]">
-          Nós oferecemos para nossos assinantes um canal exclusivo do telegram, onde mandamos
-          apostas e insights diários, aumentando ainda mais sua vantagem! <br />
+          Em parceria com a tipsbr, oferecemos para nossos assinantes um canal exclusivo do
+          telegram, o <b>GRUPO VIP TIPSBR</b> onde mandamos apostas e insights diários, aumentando
+          ainda mais sua vantagem! <br />
           <br />
           Todas as apostas são enviadas com antecedência e baseadas em análises utilizando a
           Betstats, garantindo que você tenha tempo e meios para analisar e tomar suas próprias
