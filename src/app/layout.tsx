@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Montserrat, Rubik } from 'next/font/google';
 import './globals.css';
 import { Header } from '@/components/Header';
+import { Analytics } from '@vercel/analytics/react';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         {children}
       </body>
+      <Analytics />
     </html>
   );
 }
