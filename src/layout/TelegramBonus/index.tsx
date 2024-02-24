@@ -3,6 +3,9 @@
 import { useScreenDetector } from '@/hooks/useScreenDetector';
 import TelegramImage from '../../../public/images/telegram-group.png';
 import Image from 'next/image';
+import { Button } from '@/components/Button';
+import { ctaLink } from '@/config';
+import { PagarmeLogo } from '@/assets/partners/PagarmeLogo';
 
 export const TelegramBonus = () => {
   const { isMobile } = useScreenDetector();
@@ -29,6 +32,17 @@ export const TelegramBonus = () => {
           Betstats, garantindo que você tenha tempo e meios para analisar e tomar suas próprias
           decisões.
         </p>
+        <div className="flex flex-col md:mt-8 gap-[10px] items-center w-full">
+          <Button
+            isLink
+            link={ctaLink}
+            target="_blank"
+            className="py-4 px-[26px] md:py-[22px] md:px-9 w-full justify-center md:w-auto"
+            scheme="white-outlined"
+          >
+            <span className="text-base font-bold">ACESSE O GRUPO AGORA!</span>
+          </Button>
+        </div>
       </div>
     </section>
   );

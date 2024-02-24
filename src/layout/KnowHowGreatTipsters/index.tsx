@@ -7,13 +7,13 @@ import Image from 'next/image';
 import { useScreenDetector } from '@/hooks/useScreenDetector';
 import { ctaLink } from '@/config';
 
-export const Hero = () => {
+export const KnowHowGreatTipsters = () => {
   const { isMobile } = useScreenDetector();
 
   return (
-    <section className="relative w-full mb-[62px] mt-[156px] md:pb-[146px] md:mt-0 md:pt-[173px] bg-transparent md:bg-hero-background">
-      <div className="flex flex-col items-center max-w-[1280px] mx-auto">
-        <div className="flex flex-col md:flex-row items-center gap-6 md:gap-4 lg:gap-0">
+    <section className="relative w-full mb-[62px] md:pb-[146px]">
+      <div className="flex flex-col items-center max-w-[1280px] mx-auto px-0 md:px-8">
+        <div className="flex flex-col-reverse md:flex-row items-center gap-6 md:gap-4 lg:gap-0">
           <div className="px-8 md:px-0 flex flex-col items-start gap-6 md:gap-[18px]">
             <Button withoutAction scheme="outlined" className="py-2 px-3 md:px-4 md:py-2">
               <span className="text-sm md:text-lg">BETSTATS</span>
@@ -32,14 +32,14 @@ export const Hero = () => {
                 experiência de apostas mais inteligente e lucrativa.
               </p>
             </div>
-            <div className="flex flex-col md:mt-8 gap-[10px] items-center">
+            <div className="flex flex-col md:mt-8 gap-[10px] items-center w-full">
               <Button
                 isLink
                 link={ctaLink}
                 target="_blank"
-                className="py-4 px-[26px] md:py-[22px] md:px-9"
+                className="py-4 px-[26px] md:py-[22px] md:px-9 w-full justify-center md:w-auto"
               >
-                <span className="md:text-sm lg:text-base text-xs">
+                <span className="text-sm lg:text-base font-bold">
                   ACESSE ANÁLISES EXCLUSIVAS AGORA!
                 </span>
               </Button>
