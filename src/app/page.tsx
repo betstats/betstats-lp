@@ -13,6 +13,7 @@ import Image from 'next/image';
 import { TelegramBonus } from '@/layout/TelegramBonus';
 import { KnowHowGreatTipsters } from '@/layout/KnowHowGreatTipsters';
 import { Intro } from '@/layout/Intro';
+import { Prices } from '@/layout/Prices';
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Intro />
       <KnowHowGreatTipsters />
       <TelegramBonus />
+      <Prices />
       <GreenRange />
       <TiredOfAnalysis />
       <TakeDecisions />
