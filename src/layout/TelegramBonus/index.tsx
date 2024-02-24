@@ -19,7 +19,7 @@ export const TelegramBonus = () => {
           className="rounded-[26px] md:rounded-none"
         />
       </div>
-      <div className="flex flex-col gap-[37px] md:gap-12 max-w-[518px] w-full px-[48px] pb-[69px] md:px-0 md:pb-0">
+      <div className="flex flex-col gap-[32px] md:gap-8 max-w-[518px] w-full px-[48px] pb-[69px] md:px-0 md:pb-0">
         <h2 className="font-rubik text-[28px] leading-[34px] md:text-[40px] md:leading-[44px]">
           Acesse nosso <b>canal exclusivo</b> para assinantes no telegram.
         </h2>
@@ -32,7 +32,7 @@ export const TelegramBonus = () => {
           Betstats, garantindo que você tenha tempo e meios para analisar e tomar suas próprias
           decisões.
         </p>
-        <div className="flex flex-col md:mt-8 gap-[10px] items-center w-full">
+        <div className="flex flex-col gap-[10px] items-center md:items-start w-full">
           <Button
             isLink
             link={ctaLink}

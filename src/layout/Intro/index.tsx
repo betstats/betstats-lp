@@ -32,7 +32,7 @@ export const Intro = () => {
               A <b>MELHOR</b> plataforma de estatísticas de futebol, com um <b>GRUPO VIP</b> de
               palpites exclusivo para assinantes.
             </p>
-            <div className="w-full md:w-auto flex flex-col md:mt-8 gap-[10px] items-center">
+            <div className="w-full md:w-auto flex flex-col md:mt-4 gap-[10px] items-center">
               <Button
                 isLink
                 link={ctaLink}
