@@ -4,7 +4,7 @@ import { twMerge } from 'tailwind-merge';
 import When from '../When';
 import Link from 'next/link';
 
-export type ButtonScheme = 'gradient' | 'outlined';
+export type ButtonScheme = 'gradient' | 'outlined' | 'white-outlined';
 
 type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
   scheme?: ButtonScheme;

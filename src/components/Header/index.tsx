@@ -10,9 +10,6 @@ export const Header = () => {
 
   return (
     <header className=" w-full border-b border-common-white-250 backdrop-blur-xl fixed top-0 z-[10]">
-      <h2 className="py-2 block md:hidden font-montserrat font-medium text-common-white-800 text-center text-sm bg-alerts-blue">
-        Bônus exclusivo: <b>GRUPO VIP TIPSBR</b> no Telegram
-      </h2>
       <nav className="py-4 px-8 mx-auto max-w-[1280px] flex items-center justify-between gap-4">
         <h1>
           <DesktopLogo width={isMobile ? '120' : undefined} height={isMobile ? '36' : undefined} />

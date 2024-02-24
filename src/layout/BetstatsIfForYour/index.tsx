@@ -19,7 +19,7 @@ export const BetstatsIsForYou = () => {
         <FootballBall color={colors.brand.primary} />
         <span className="text-sm font-medium text-common-grey-800">A BETSTATS É PRA VOCÊ</span>
       </Button>
-      <h2 className="text-3xl md:text-5xl font-rubik font-bold text-center max-w-[312px] md:max-w-auto">
+      <h2 className="text-3xl md:text-5xl font-rubik font-bold text-center max-w-[412px] md:max-w-auto">
         A <b className="gradient-text font-bold">BETSTATS</b> É PRA VOCÊ QUE...
       </h2>
       <div className="w-full max-w-[1378px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-7 gap-5">
