@@ -6,10 +6,10 @@ import Accordion from '@/components/Accordion';
 
 export const FAQ = () => {
   return (
-    <section className="mx-auto max-w-[1140px] w-full flex flex-col gap-4 md:gap-[76px] px-6">
+    <section className="mx-auto max-w-[1140px] w-full flex flex-col gap-4 md:mt-[132px]  md:gap-[76px] px-6">
       <div className="flex flex-col gap-4 items-center md:items-start">
         <Button withoutAction className="w-fit px-4 py-2" scheme="outlined">
-          <span className="text-xs md:text-lg font-light">DÚVIDAS FREQUENTES</span>
+          <span className="text-xs md:text-lg font-light ">DÚVIDAS FREQUENTES</span>
         </Button>
         <div className="w-full flex flex-col md:flex-row justify-between items-start lg:items-end gap-4">
           <h2 className="max-w-[439px] font-rubik font-semibold text-4xl text-center md:text-5xl md:text-start">

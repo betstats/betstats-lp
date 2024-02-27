@@ -11,6 +11,7 @@ import { TakeDecisions } from '@/layout/TakeDecisions';
 import { TiredOfAnalysis } from '@/layout/TiredOfAnalysis';
 import MobileGreenLight from '@/../public/images/mobile-green-light.png';
 import Image from 'next/image';
+import {WarrantySection} from '@/layout/WarrantySection'
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <SpendMoney />
       <SeeHowStatisticsWork />
       <AccessAnalysis />
+      <WarrantySection />
       <FAQ />
       <EvolveHasTipster />
       <Footer />
