@@ -14,6 +14,7 @@ import { TelegramBonus } from '@/layout/TelegramBonus';
 import { KnowHowGreatTipsters } from '@/layout/KnowHowGreatTipsters';
 import { Intro } from '@/layout/Intro';
 import { Prices } from '@/layout/Prices';
+import WarrantySection from '@/layout/WarrantySection';
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
       <SpendMoney />
       <SeeHowStatisticsWork />
       <AccessAnalysis />
+      <WarrantySection />
       <FAQ />
       <EvolveHasTipster />
       <Footer />
