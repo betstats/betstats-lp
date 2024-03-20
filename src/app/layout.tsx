@@ -1,8 +1,13 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import type { Metadata } from 'next';
 import { Montserrat, Rubik } from 'next/font/google';
 import './globals.css';
 import { Header } from '@/components/Header';
 import { Analytics } from '@vercel/analytics/react';
+import Script from 'next/script';
+import { Suspense } from 'react';
+import { FacebookPixelEvents } from '@/components/FacebookPixel';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -29,6 +34,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       >
         <Header />
         {children}
+        <Suspense fallback={null}>
+          <FacebookPixelEvents />
+        </Suspense>
       </body>
       <Analytics />
     </html>
