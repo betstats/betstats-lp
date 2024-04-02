@@ -8,6 +8,7 @@ import { Analytics } from '@vercel/analytics/react';
 import Script from 'next/script';
 import { Suspense } from 'react';
 import { FacebookPixelEvents } from '@/components/FacebookPixel';
+import { ClarityScript } from './scripts/Clarity';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -39,6 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </Suspense>
       </body>
       <Analytics />
+      <ClarityScript />
     </html>
   );
 }
