@@ -38,9 +38,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Suspense fallback={null}>
           <FacebookPixelEvents />
         </Suspense>
+        <Analytics />
+        <ClarityScript />
       </body>
-      <Analytics />
-      <ClarityScript />
     </html>
   );
 }
